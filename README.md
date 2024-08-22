@@ -17,7 +17,4 @@ git commint -m "<Message>"
 
 # create a LICENSE file. It is not mandatory but is useful in case you are building a product for commercial or open source use.There are different types of licenses you can check the terms of usage and limitations and decide on the type of license.
 
-
-
-
-
+# create init_setup file to install all the requirements regarding the setup. Its a shell script to run all the basic setup commnads at one go.To execute the file use bash init_setup.sh.      
