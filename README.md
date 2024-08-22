@@ -45,5 +45,16 @@ git commint -m "<Message>"
 # 4. Requirements.txt
 # 5. Setup.py
 
-
 # A . gitkeep file tells github to do the opposite of its default behaviour, which is to ignore empty folders. If you want to track an empty folder, or a folder with untracked files, create a 0kb file with the . gitkeep file extension in that folder.
+
+# __init__.py file is created in folders so it can be used as a package
+# to install local package (Program you have written) in your local environment use any of the below options:
+# 1. pip install
+# 2. In the requirements.txt file add -e .
+# 3. create setup.py file. Run code as python setup.py install
+
+# development cycle: Development >> Testing >> QA >> delivery >> monitoring >> maintenance
+
+# 6. once you have the setup.py file update the basic info as provide in the file and install it using any of the steps mentioned above
+
+
